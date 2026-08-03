@@ -1,0 +1,58 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Alfredo Benites, backend-focused developer</title>
+  <desc id="desc">A nature-inspired banner with mountains, pine trees, a rising sun, and subtle code symbols.</desc>
+  <defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F4F1"/>
+      <stop offset="0.55" stop-color="#BFDCD2"/>
+      <stop offset="1" stop-color="#83B19C"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7C873"/>
+      <stop offset="1" stop-color="#E98E62"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3D725F"/>
+      <stop offset="1" stop-color="#244D3D"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#sky)"/>
+    <circle cx="982" cy="80" r="70" fill="#FFF4D6" opacity="0.45" filter="url(#soft)"/>
+    <circle cx="982" cy="80" r="43" fill="url(#sun)"/>
+
+    <g opacity="0.16" fill="#244D3D" font-family="Consolas, Menlo, monospace" font-size="22" font-weight="700">
+      <text x="72" y="74">{ build }</text>
+      <text x="1040" y="160">&lt;/&gt;</text>
+      <text x="790" y="52">01</text>
+      <text x="187" y="142">→</text>
+    </g>
+
+    <path d="M0 264L146 134L243 220L350 104L526 271L655 157L792 269L896 178L1010 266L1117 145L1200 224V360H0V264Z" fill="#5D907A" opacity="0.58"/>
+    <path d="M0 294L166 190L286 278L438 154L603 294L744 197L901 294L1047 202L1200 282V360H0V294Z" fill="url(#mountain)"/>
+    <path d="M333 120L350 104L371 124L350 117L340 125Z" fill="#F3F0E6" opacity="0.9"/>
+    <path d="M418 169L438 154L461 174L438 167L428 177Z" fill="#F3F0E6" opacity="0.82"/>
+    <path d="M1099 163L1117 145L1140 168L1117 159L1108 170Z" fill="#F3F0E6" opacity="0.82"/>
+
+    <g fill="#17392D">
+      <path d="M80 304L109 244L138 304H122L144 340H74L96 304H80Z"/>
+      <path d="M1030 286L1058 226L1086 286H1070L1093 326H1023L1046 286H1030Z"/>
+      <path d="M1100 304L1123 254L1147 304H1134L1152 336H1094L1112 304H1100Z"/>
+    </g>
+
+    <rect x="49" y="42" width="704" height="197" rx="24" fill="#F9FCFA" opacity="0.9"/>
+    <rect x="49" y="42" width="7" height="197" rx="3.5" fill="#E98E62"/>
+    <text x="91" y="110" fill="#17392D" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="3">HELLO, I'M</text>
+    <text x="88" y="170" fill="#17392D" font-family="Segoe UI, Arial, sans-serif" font-size="57" font-weight="750">Alfredo Benites</text>
+    <text x="91" y="211" fill="#3D725F" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Backend-focused developer · curious builder · nature lover</text>
+
+    <path d="M0 334C182 312 322 347 493 328C676 308 823 352 1014 326C1088 316 1147 317 1200 326V360H0V334Z" fill="#102C23"/>
+  </g>
+</svg>
